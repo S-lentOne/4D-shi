@@ -2,7 +2,7 @@
   "name": "4d-shi",
   "private": true,
   "version": "0.0.1",
-  "description": "A 4D Shogi game built with Three.js and Electron",
+  "description": "A four-dimensional interactive visualization project with septi-hyper-immersive features",
   "main": "electron/main.js",
   "scripts": {
     "dev": "vite",

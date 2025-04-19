@@ -1,6 +1,13 @@
-# 4D Shogi
+# 4D-shi
 
-A 4D Shogi game built with Three.js and Electron.
+A four-dimensional interactive visualization project with septi-hyper-immersive features.
+
+## Project Name Meaning
+- "4D": Four-dimensional visualization
+- "shi": 
+  - "Septi" (7): Seven slices in the 4th dimension
+  - "Hyper": Higher-dimensional nature
+  - "Immersive": Interactive and engaging experience
 
 ## Development
 
