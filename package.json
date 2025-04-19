@@ -1,0 +1,29 @@
+{
+  "name": "4d-shi",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A 4D Shogi game built with Three.js and Electron",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron:dev": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "three": "^0.162.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^29.1.4",
+    "vite": "^5.1.6"
+  }
+} 
