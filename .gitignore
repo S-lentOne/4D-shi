@@ -1,3 +1,50 @@
+# Build directories
+build/
+bin/
+lib/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Dependencies
+deps/
+external/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Electron specific
+electron/dist/
+electron-builder.yml
+
 # Dependencies
 node_modules/
 npm-debug.log*
@@ -6,24 +53,4 @@ yarn-error.log*
 
 # Build output
 dist/
-build/
-out/
-
-# IDE and editor files
-.idea/
-.vscode/
-*.swp
-*.swo
-.DS_Store
-
-# Electron specific
-electron/dist/
-electron-builder.yml
-
-# Environment variables
-.env
-.env.local
-.env.*.local
-
-# OS
-Thumbs.db 
+out/ 

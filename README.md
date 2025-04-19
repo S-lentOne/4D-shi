@@ -1,47 +1,49 @@
 # 4D-shi
 
-A four-dimensional interactive visualization project with septi-hyper-immersive features.
+A four-dimensional interactive visualization project using Vulkan and C++.
 
-## Project Name Meaning
-- "4D": Four-dimensional visualization
-- "shi": 
-  - "Septi" (7): Seven slices in the 4th dimension
-  - "Hyper": Higher-dimensional nature
-  - "Immersive": Interactive and engaging experience
+## Dependencies
 
-## Development
-
-1. Install dependencies:
-```bash
-npm install
-```
-
-2. Start the development server:
-```bash
-npm run dev
-```
-
-3. In a separate terminal, start Electron:
-```bash
-npm run electron:dev
-```
+- Vulkan SDK
+- GLFW 3.4.0 or later
+- GLM (OpenGL Mathematics)
+- CMake 3.10 or later
+- C++17 compatible compiler
 
 ## Building
 
-To create a production build:
-
 ```bash
-npm run build
+# Create build directory
+mkdir build && cd build
+
+# Configure with CMake
+cmake ..
+
+# Build the project
+make
+
+# Run the application
+./bin/4d-shi
 ```
 
-To package the application:
+## Project Structure
 
-```bash
-npm run make
+```
+4D-shi/
+├── build/          # Build directory
+├── include/        # Header files
+├── lib/           # Third-party libraries
+├── shaders/       # Vulkan shaders
+└── src/           # Source files
 ```
 
-## Controls
+## Features
 
-- WASD: Move in 3D space
-- Mouse: Rotate camera
-- Scroll: Zoom in/out 
+- 4D space visualization
+- Real-time rendering using Vulkan
+- Interactive navigation through 4D space
+- Procedurally generated environment
+
+## License
+
+[Your chosen license] 
