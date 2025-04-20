@@ -1,0 +1,123 @@
+Progress Review :
+
+(RAW)
+
+Slide 3: Project Overview
+
+Objective: To develop a 4D Object Visualizer that enables users to interactively explore and manipulate four-dimensional objects, enhancing their understanding of complex spatial relationships.
+
+Scope: This project includes:User interface development
+
+Core visualization algorithms
+
+Data import/export functionalities
+
+Excludes advanced analytics features and integration with external databases.
+
+Stakeholders:Project Manager
+
+Software Developers
+
+Designers
+
+Potential Users (e.g., educators, researchers)
+
+Timeline:Requirement Gathering (Completed)
+
+Design Phase (In Progress - Target Completion: March 15th)
+
+Development (Planned Start: March 20th)
+
+Testing (Planned Start: April 15th)
+
+Slide 4: Requirement Gathering & Data Collection
+
+Sources of Data:
+
+Simulated datasets
+
+Publicly available 4D datasets
+
+Data provided by collaborators
+
+**Key Functional & Non-Functional Requirements:
+
+Functional:**Support for various 4D data formats
+
+Interactive manipulation of visualizations
+
+Ability to create custom visualizations
+
+Non-Functional:Performance (frame rate, rendering speed)
+
+User-friendliness
+
+Scalability
+
+Challenges in Data Collection:Finding suitable 4D datasets
+
+Data preprocessing requirements
+
+Handling large datasets
+
+Current Status: In Progress
+
+Slide 5: Design Phase
+
+Use Case Diagram: Include a visual representation of key user interactions with the visualizer.
+Visual Representation of System Interactions: Describe the overall system architecture and how different components interact.
+Data Flow Diagrams (DFDs): Provide a high-level context diagram (Level 0) and mention detailed diagrams in a separate document if necessary.
+
+Architecture & Tech Stack Finalization:Programming Language: Python or C++
+
+Rendering Library: OpenGL or WebGL
+
+UI Framework: Qt or React
+
+Data Processing Libraries: NumPy, Pandas
+
+Slide 6: Development Kickoff
+
+Initial Codebase Setup: Describe the initial setup, including version control (e.g., Git) and development environment (e.g., Docker).
+
+Slide 7: SDG Goals Mapping
+
+Which UN Sustainable Development Goals (SDGs) does this project align with?SDG 4 (Quality Education)
+
+SDG 9 (Industry, Innovation, and Infrastructure)
+
+Potential Impact:Enhancing educational tools for understanding complex concepts
+
+Promoting innovation in visualization techniques
+
+Slide 8: Multidisciplinary Approach
+
+Fields Involved: AI/ML, Data Science, Computer Graphics, Education
+Team Collaboration: Agile methodology, daily stand-ups, regular team meetings
+Interdisciplinary Innovation: Combining expertise from different fields to foster creative solutions.
+
+Slide 9: Novelty Factor
+
+What makes this project unique?Innovative algorithms for visualizing 4D objects
+
+User-friendly interface for complex data interaction
+
+Comparison with Existing Solutions: Highlight advantages such as improved accuracy and user engagement.
+Innovation in Approach, Design, or Technology: Discuss any novel techniques or technologies being utilized.
+
+Slide 10: Challenges & Risks
+
+Key Challenges Faced So Far:Data quality issues
+
+Model training time
+
+Integration complexities
+
+Identified Risks & Mitigation Strategies:Risk: Data bias
+
+Mitigation: Implement data cleaning and preprocessing techniques
+
+Slide 11: Next Steps
+
+Finalizing Design Phase: Complete detailed data flow diagrams and finalize system architecture.
+Early Development & Testing: Develop a Minimum Viable Product (MVP) and conduct unit and integration tests.
